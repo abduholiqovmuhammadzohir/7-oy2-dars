@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width:360px;
+  width: 100%;
+  margin: 50px auto;
+}
+.containers{
+  max-width:300px;
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight:600;
+}
+
+.about,.card{
+  text-decoration: none;
+  color:slategray;
+}
+.about:hover{
+  border-bottom:2px solid black;
+  color: sienna;
+}
+.card:hover{
+  border-bottom:2px solid black;
+  color: sienna;
+}
+
+
+.rasm{
+  width: 350px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 10%;
+
+}
+.btn{
+  position:relative;
+  display: flex; 
+  bottom: 50px;
+  gap: 10px;
+  justify-content: center;
+
+}
+.rasm2{
+  width: 350px;
+  display: block;
+}
+.rasm1{
+  width: 360px;
+  height: 261px;
+}
+.hdn{
+  display: none;
+}
+.bt1{
+  background: none;
+  border: none;
+  background: rgba(50, 200, 90, 0.5);
+  color: white;
+  border-radius: 10px;
+  padding: 4px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.cards{
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.img{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
